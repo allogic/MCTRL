@@ -1358,7 +1358,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCTRL:IPD70R360P7SAUMA1"
+		(symbol "MCTRL:IPAN60R125PFD7SXKSA1"
 			(pin_names
 				(offset 0.254)
 			)
@@ -1377,8 +1377,8 @@
 					)
 				)
 			)
-			(property "Value" "IPD70R360P7SAUMA1"
-				(at 12.7 -14.732 0)
+			(property "Value" "IPAN60R125PFD7SXKSA1"
+				(at 14.478 -14.732 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1387,8 +1387,8 @@
 					)
 				)
 			)
-			(property "Footprint" "MCTRL:IPD70R360P7SAUMA1"
-				(at 15.494 19.558 0)
+			(property "Footprint" "MCTRL:IPAN60R125PFD7SXKSA1"
+				(at 17.526 22.86 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1399,8 +1399,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD70R360P7S-DS-v02_00-EN.pdf?fileId=5546d462584d1d4a0158cf6fb1440d5c"
-				(at 10.414 15.24 0)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPAN60R125PFD7S-DataSheet-v02_01-EN.pdf?fileId=5546d4626df6ee62016e224bf53a667c"
+				(at 7.112 19.304 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1422,7 +1422,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "IPD70R360P7SAUMA1"
+			(property "ki_keywords" "IPAN60R125PFD7SXKSA1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1433,7 +1433,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "PG-TO252-3_INF"
+			(property "ki_fp_filters" "PG-TO220-3"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1444,7 +1444,7 @@
 					)
 				)
 			)
-			(symbol "IPD70R360P7SAUMA1_0_1"
+			(symbol "IPAN60R125PFD7SXKSA1_0_1"
 				(pin unspecified line
 					(at -7.62 -6.35 0)
 					(length 7.62)
@@ -1500,7 +1500,7 @@
 					)
 				)
 			)
-			(symbol "IPD70R360P7SAUMA1_1_1"
+			(symbol "IPAN60R125PFD7SXKSA1_1_1"
 				(rectangle
 					(start 0 0)
 					(end 20.32 -12.7)
@@ -2276,6 +2276,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 52.07) (xy 66.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f861d07-5c79-4102-9837-d5d8bda29d83")
+	)
+	(wire
+		(pts
+			(xy 111.76 124.46) (xy 71.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10979c14-8bef-4276-b26c-9ec34b9db2ad")
+	)
+	(wire
+		(pts
 			(xy 92.71 41.91) (xy 100.33 41.91)
 		)
 		(stroke
@@ -2293,26 +2313,6 @@
 			(type default)
 		)
 		(uuid "149f004f-fcd4-4f6e-b1c3-7289afe1c819")
-	)
-	(wire
-		(pts
-			(xy 66.04 52.07) (xy 66.04 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1588d9c4-e8d9-4bfe-bee3-87023c830f11")
-	)
-	(wire
-		(pts
-			(xy 238.76 52.07) (xy 238.76 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19311553-850e-4d24-8f3b-766b00056f36")
 	)
 	(wire
 		(pts
@@ -2343,6 +2343,26 @@
 			(type default)
 		)
 		(uuid "1ff4128d-0e55-4890-b313-dbbdab82a648")
+	)
+	(wire
+		(pts
+			(xy 254 74.93) (xy 254 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21794dde-488b-4a6e-94f6-0e14af7d1118")
+	)
+	(wire
+		(pts
+			(xy 246.38 85.09) (xy 257.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245d10e5-5e24-41b7-9420-8ba72559cc22")
 	)
 	(wire
 		(pts
@@ -2403,16 +2423,6 @@
 			(type default)
 		)
 		(uuid "28adb3c0-a308-4c51-bc33-e14c863e510c")
-	)
-	(wire
-		(pts
-			(xy 63.5 116.84) (xy 43.18 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b3f446e-ddf4-4fa3-9c2d-3ef6d1e7bcb1")
 	)
 	(wire
 		(pts
@@ -2496,16 +2506,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 76.2) (xy 252.73 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44e452d7-dc64-4eac-b20d-77dc7523727c")
-	)
-	(wire
-		(pts
 			(xy 100.33 52.07) (xy 190.5 52.07)
 		)
 		(stroke
@@ -2513,6 +2513,16 @@
 			(type default)
 		)
 		(uuid "4624f005-b96f-4cd8-9dbd-707ba28b94b5")
+	)
+	(wire
+		(pts
+			(xy 73.66 119.38) (xy 43.18 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "485bfe43-2ba6-46fd-adbc-688bde0a7472")
 	)
 	(wire
 		(pts
@@ -2526,7 +2536,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 85.09) (xy 238.76 124.46)
+			(xy 246.38 85.09) (xy 246.38 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2576,6 +2586,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 87.63) (xy 257.81 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5461589b-774b-48f4-ad4c-da2748630c74")
+	)
+	(wire
+		(pts
 			(xy 119.38 102.87) (xy 119.38 109.22)
 		)
 		(stroke
@@ -2593,6 +2613,36 @@
 			(type default)
 		)
 		(uuid "568165cc-827c-4aa5-b79b-681d06a39453")
+	)
+	(wire
+		(pts
+			(xy 246.38 82.55) (xy 257.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2006d2-4745-4781-9dc9-b4275a290ab8")
+	)
+	(wire
+		(pts
+			(xy 71.12 116.84) (xy 71.12 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bbacc48-1deb-4346-92b4-208c131b2d12")
+	)
+	(wire
+		(pts
+			(xy 73.66 121.92) (xy 73.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce902a7-9ae3-460e-b58e-13ee5060fe02")
 	)
 	(wire
 		(pts
@@ -2616,7 +2666,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 49.53) (xy 63.5 116.84)
+			(xy 63.5 49.53) (xy 63.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2626,13 +2676,13 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 87.63) (xy 252.73 91.44)
+			(xy 43.18 121.92) (xy 63.5 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "620a048a-49ca-4638-9ca1-cc6da3763420")
+		(uuid "60e2bf69-9f6e-49c3-bd07-7d9f82a96990")
 	)
 	(wire
 		(pts
@@ -2776,16 +2826,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 87.63) (xy 256.54 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a4ccacd-328d-467e-b968-6ed8582ea74a")
-	)
-	(wire
-		(pts
 			(xy 85.09 62.23) (xy 85.09 83.82)
 		)
 		(stroke
@@ -2796,16 +2836,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 80.01) (xy 256.54 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c2bd7d0-f4d5-4799-bc83-beaa3ef613c7")
-	)
-	(wire
-		(pts
 			(xy 140.97 71.12) (xy 144.78 71.12)
 		)
 		(stroke
@@ -2813,16 +2843,6 @@
 			(type default)
 		)
 		(uuid "8ebc927c-8a35-4165-8e60-fef2b4aac3e9")
-	)
-	(wire
-		(pts
-			(xy 238.76 85.09) (xy 256.54 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fbd46d2-fdb6-44fd-b6c2-3cc7b9330d00")
 	)
 	(wire
 		(pts
@@ -2866,16 +2886,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 124.46) (xy 111.76 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "965415d6-3413-47e1-a261-a2cb4254a6a2")
-	)
-	(wire
-		(pts
 			(xy 224.79 146.05) (xy 220.98 146.05)
 		)
 		(stroke
@@ -2913,6 +2923,16 @@
 			(type default)
 		)
 		(uuid "a1583c82-129a-43af-836b-25ef6d6cc5aa")
+	)
+	(wire
+		(pts
+			(xy 246.38 52.07) (xy 246.38 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4329645-544d-47c2-8bc6-7297b10dc502")
 	)
 	(wire
 		(pts
@@ -2956,13 +2976,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 119.38) (xy 43.18 119.38)
+			(xy 71.12 116.84) (xy 43.18 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad628160-c354-44be-b0f7-ebef15e9e779")
+		(uuid "ac0bace9-8880-4ba8-9d6e-bf8f4afad9b4")
 	)
 	(wire
 		(pts
@@ -3036,7 +3056,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 52.07) (xy 238.76 52.07)
+			(xy 190.5 52.07) (xy 246.38 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3093,16 +3113,6 @@
 			(type default)
 		)
 		(uuid "be252ee9-b830-4d1d-8026-ee84d44f7a7f")
-	)
-	(wire
-		(pts
-			(xy 238.76 82.55) (xy 256.54 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16b599c-c2bc-4d1f-a583-527d5e9b2b00")
 	)
 	(wire
 		(pts
@@ -3176,6 +3186,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 93.98) (xy 254 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef4dc0b-3eca-4258-b42a-41e2a3ac99c8")
+	)
+	(wire
+		(pts
 			(xy 135.89 143.51) (xy 163.83 143.51)
 		)
 		(stroke
@@ -3223,16 +3243,6 @@
 			(type default)
 		)
 		(uuid "de3c43d5-c387-462b-82c3-015e53d2972b")
-	)
-	(wire
-		(pts
-			(xy 43.18 121.92) (xy 111.76 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e012a159-8fb7-4e24-8809-904810464e56")
 	)
 	(wire
 		(pts
@@ -3306,13 +3316,23 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 124.46) (xy 238.76 124.46)
+			(xy 224.79 124.46) (xy 246.38 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6ae2535-2725-4773-b977-7f449a7ce27d")
+	)
+	(wire
+		(pts
+			(xy 43.18 124.46) (xy 66.04 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b535b0-b888-48c3-b48b-e4965743b31a")
 	)
 	(wire
 		(pts
@@ -3323,6 +3343,16 @@
 			(type default)
 		)
 		(uuid "e96ff288-c005-4e59-bdec-af2b4fd9a4b4")
+	)
+	(wire
+		(pts
+			(xy 254 80.01) (xy 257.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb2a2fd-8522-4ac3-9e18-aa896c22f1f8")
 	)
 	(wire
 		(pts
@@ -3353,6 +3383,16 @@
 			(type default)
 		)
 		(uuid "f3b63d7e-d7a8-46e8-9ae0-d07d862d441e")
+	)
+	(wire
+		(pts
+			(xy 111.76 121.92) (xy 73.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f50dacdf-7a44-4b5b-b3a9-1e208c23069e")
 	)
 	(wire
 		(pts
@@ -3671,8 +3711,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 46.99 58.42 0)
+		(lib_id "MCTRL:IPAN60R125PFD7SXKSA1")
+		(at 193.04 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3680,10 +3720,53 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ab61b72-6af9-49ef-94c5-5a2dfa44f0b2")
-		(property "Reference" "#PWR015"
-			(at 46.99 62.23 0)
+		(uuid "24497416-ca04-473b-a6a2-09dc44c0808d")
+		(property "Reference" "U6"
+			(at 194.564 135.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "IPAN60R125PFD7SXKSA1"
+			(at 206.756 151.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MCTRL:IPAN60R125PFD7SXKSA1"
+			(at 210.566 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPAN60R125PFD7S-DataSheet-v02_01-EN.pdf?fileId=5546d4626df6ee62016e224bf53a667c"
+			(at 200.152 117.856 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3693,134 +3776,19 @@
 				)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 46.99 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 46.99 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin "3"
+			(uuid "5c2a375b-4de1-41bc-9928-f4649b4a2ec7")
 		)
 		(pin "1"
-			(uuid "3f934f04-0e10-4783-9b84-aff6b33f318a")
+			(uuid "47f2f9f8-a478-4c0b-a9f2-1f8e1c5be050")
+		)
+		(pin "2"
+			(uuid "9f17577d-b9c7-44a5-8fd8-f6fd2a7e3372")
 		)
 		(instances
 			(project "MCTRL"
 				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 252.73 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "232216eb-a6eb-4240-a680-70b4e6388e33")
-		(property "Reference" "#PWR013"
-			(at 252.73 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+VDD"
-			(at 250.19 71.628 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 252.73 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "44c06735-8dc2-4790-b369-e734b4e21b93")
-		)
-		(instances
-			(project "MCTRL"
-				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
-					(reference "#PWR013")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4014,7 +3982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "MCTRL:UUP1H0R1MCL1GS"
 			(at 110.49 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -4063,84 +4031,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 252.73 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "44baba66-6454-43f6-b3bd-8e97c644aff6")
-		(property "Reference" "#PWR019"
-			(at 252.73 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "COM"
-			(at 250.698 96.012 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ce869d8-84d8-4857-a758-28416a7c79f2")
-		)
-		(instances
-			(project "MCTRL"
-				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 134.62 119.38 0)
 		(unit 1)
@@ -4171,7 +4061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "MCTRL:UWP1HR22MCL1GB"
 			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4220,6 +4110,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+15V")
+		(at 46.99 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c900ed5-0efe-4eed-8597-d21f003b9a89")
+		(property "Reference" "#PWR016"
+			(at 46.99 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+10V"
+			(at 46.99 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 46.99 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "552b8d6d-7eed-415f-a914-8dd55c72fdf1")
+		)
+		(instances
+			(project "MCTRL"
+				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 111.76 59.69 0)
 		(unit 1)
@@ -4250,7 +4218,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MCTRL:EEEFK1H220P"
 			(at 111.76 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4402,8 +4370,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MCTRL:393570004")
-		(at 261.62 77.47 0)
+		(lib_id "MCTRL:IPAN60R125PFD7SXKSA1")
+		(at 158.75 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4411,31 +4379,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "615061cf-7ff9-4f7c-a798-4c3bc5fae46e")
-		(property "Reference" "J1"
-			(at 261.874 75.946 0)
+		(uuid "613ee66d-3081-476b-9aaa-e6a4e090d186")
+		(property "Reference" "U4"
+			(at 160.274 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "393570004"
-			(at 261.62 91.948 0)
+		(property "Value" "IPAN60R125PFD7SXKSA1"
+			(at 172.466 79.502 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "MCTRL:393570004"
-			(at 265.938 62.23 0)
+		(property "Footprint" "MCTRL:IPAN60R125PFD7SXKSA1"
+			(at 176.276 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4446,8 +4412,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/393570004?display=pdf"
-			(at 264.922 65.278 0)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPAN60R125PFD7S-DataSheet-v02_01-EN.pdf?fileId=5546d4626df6ee62016e224bf53a667c"
+			(at 165.862 45.466 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4459,7 +4425,93 @@
 			)
 		)
 		(property "Description" ""
-			(at 261.62 77.47 0)
+			(at 158.75 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "e5b3bc4b-f8ae-4a94-9070-8a78e0b45476")
+		)
+		(pin "1"
+			(uuid "9ec34861-b0c7-4f7b-98ab-ca7139ea96fb")
+		)
+		(pin "2"
+			(uuid "1a732fb5-e396-4aa6-a454-e4b7fd57e458")
+		)
+		(instances
+			(project "MCTRL"
+				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCTRL:393570004")
+		(at 262.89 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "615061cf-7ff9-4f7c-a798-4c3bc5fae46e")
+		(property "Reference" "J1"
+			(at 263.144 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "393570004"
+			(at 262.89 91.948 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MCTRL:393570004"
+			(at 267.208 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/393570004?display=pdf"
+			(at 266.192 65.278 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 262.89 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4521,7 +4573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "MCTRL:UUP1H0R1MCL1GS"
 			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -5078,90 +5130,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MCTRL:IPD70R360P7SAUMA1")
-		(at 193.04 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8c3049a0-67aa-43a7-8a14-003cc3a7c7d1")
-		(property "Reference" "U6"
-			(at 194.818 135.382 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "IPD70R360P7SAUMA1"
-			(at 205.232 152.146 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MCTRL:IPD70R360P7SAUMA1"
-			(at 208.534 117.602 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD70R360P7S-DS-v02_00-EN.pdf?fileId=5546d462584d1d4a0158cf6fb1440d5c"
-			(at 203.454 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "982ec3be-3133-4888-b54e-9103be22b320")
-		)
-		(pin "2"
-			(uuid "e33eb03d-38ec-4b7d-8d6c-b7e8bd9f3202")
-		)
-		(pin "1"
-			(uuid "7b3483a9-67e0-464c-8a26-171e8baeb2d5")
-		)
-		(instances
-			(project "MCTRL"
-				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D")
 		(at 171.45 134.62 0)
 		(unit 1)
@@ -5344,7 +5312,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 137.16 71.12 90)
+		(at 137.16 71.12 270)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5354,7 +5323,7 @@
 		(dnp no)
 		(uuid "949b5add-861c-4818-a754-c65c77e9c5c8")
 		(property "Reference" "R2"
-			(at 137.414 68.326 90)
+			(at 136.906 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5374,7 +5343,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
-			(at 137.414 70.104 90)
+			(at 136.906 70.104 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5416,6 +5385,84 @@
 			(project "MCTRL"
 				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 254 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "959dbe50-2fd8-4acc-ab99-a7b2c3a0a1d1")
+		(property "Reference" "#PWR013"
+			(at 254 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VDD"
+			(at 251.46 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 254 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "217ba5f3-7457-472d-81c1-067527ef6c6e")
+		)
+		(instances
+			(project "MCTRL"
+				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -5494,90 +5541,6 @@
 			(project "MCTRL"
 				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCTRL:IPD70R360P7SAUMA1")
-		(at 193.04 99.06 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9e9ed4d1-3e43-4ff8-ad3e-5d8ef22f5bee")
-		(property "Reference" "U5"
-			(at 194.818 97.282 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "IPD70R360P7SAUMA1"
-			(at 205.232 114.046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MCTRL:IPD70R360P7SAUMA1"
-			(at 208.534 79.502 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD70R360P7S-DS-v02_00-EN.pdf?fileId=5546d462584d1d4a0158cf6fb1440d5c"
-			(at 203.454 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 193.04 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "f8bf4145-0184-4471-a78a-793b863bd83c")
-		)
-		(pin "2"
-			(uuid "34dc0afe-fa7f-4887-8477-39da71db7337")
-		)
-		(pin "1"
-			(uuid "3d30d90a-550a-435f-a469-377611353ab1")
-		)
-		(instances
-			(project "MCTRL"
-				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5702,90 +5665,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MCTRL:IPD70R360P7SAUMA1")
-		(at 158.75 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a5cd0144-f0ea-42a0-a44f-24c9c4ca9d3e")
-		(property "Reference" "U4"
-			(at 160.528 62.992 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "IPD70R360P7SAUMA1"
-			(at 170.942 79.756 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MCTRL:IPD70R360P7SAUMA1"
-			(at 174.244 45.212 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD70R360P7S-DS-v02_00-EN.pdf?fileId=5546d462584d1d4a0158cf6fb1440d5c"
-			(at 169.164 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "8e534d99-9df7-4f65-8f00-822c1037b4b4")
-		)
-		(pin "2"
-			(uuid "307b41b3-9aad-4a5c-8b53-98fe08c12ea3")
-		)
-		(pin "1"
-			(uuid "a6870857-350e-4534-a803-d48fafd7fd5e")
-		)
-		(instances
-			(project "MCTRL"
-				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 190.5 26.67 0)
 		(unit 1)
@@ -5864,84 +5743,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+15V")
-		(at 54.61 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9f37898-f821-4350-be66-7c8b732d0bfe")
-		(property "Reference" "#PWR016"
-			(at 54.61 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+10V"
-			(at 54.61 53.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 54.61 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7906ba90-696f-47d0-bae5-500bb0f27821")
-		)
-		(instances
-			(project "MCTRL"
-				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
 		(at 146.05 132.08 0)
 		(unit 1)
@@ -5972,7 +5773,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MCTRL:EEEFK1H220P"
 			(at 146.05 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6051,7 +5852,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(property "Footprint" "MCTRL:UWP1HR22MCL1GB"
 			(at 100.33 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6102,6 +5903,7 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 137.16 62.23 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6111,7 +5913,7 @@
 		(dnp no)
 		(uuid "b4784bfd-1c90-4ecb-8147-264be23e1409")
 		(property "Reference" "D3"
-			(at 135.89 59.182 0)
+			(at 138.43 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6122,7 +5924,7 @@
 			)
 		)
 		(property "Value" "UF4007"
-			(at 133.35 65.532 0)
+			(at 140.97 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6197,6 +5999,90 @@
 			(project "MCTRL"
 				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MCTRL:IPAN60R125PFD7SXKSA1")
+		(at 193.04 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b65f76db-10da-4309-a410-940a95db8ebe")
+		(property "Reference" "U5"
+			(at 194.564 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "IPAN60R125PFD7SXKSA1"
+			(at 206.756 113.792 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MCTRL:IPAN60R125PFD7SXKSA1"
+			(at 210.566 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPAN60R125PFD7S-DataSheet-v02_01-EN.pdf?fileId=5546d4626df6ee62016e224bf53a667c"
+			(at 200.152 79.756 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "53ca7d4d-bc60-4b10-b3aa-64dea1ff3ec4")
+		)
+		(pin "1"
+			(uuid "4d369e83-c2d5-4756-bfcc-d7624ba34827")
+		)
+		(pin "2"
+			(uuid "072c3ca1-1c63-485a-b787-a778f95d6493")
+		)
+		(instances
+			(project "MCTRL"
+				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6378,6 +6264,84 @@
 			(project "MCTRL"
 				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
 					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d29ba60d-f641-46b1-a201-1d7b3f2adff0")
+		(property "Reference" "#PWR019"
+			(at 254 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "COM"
+			(at 251.968 98.552 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "381ddfe2-08be-4884-933f-e3a51bf03a01")
+		)
+		(instances
+			(project "MCTRL"
+				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -6837,7 +6801,7 @@
 		)
 	)
 	(symbol
-		(lib_id "MCTRL:IPD70R360P7SAUMA1")
+		(lib_id "MCTRL:IPAN60R125PFD7SXKSA1")
 		(at 158.75 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -6846,9 +6810,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ddb566df-b7f0-4d7b-8283-3abb53d214c0")
+		(uuid "e638810f-894d-4542-8efc-d7e00c8acbd2")
 		(property "Reference" "U3"
-			(at 160.528 24.892 0)
+			(at 160.274 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6857,8 +6821,8 @@
 				)
 			)
 		)
-		(property "Value" "IPD70R360P7SAUMA1"
-			(at 170.942 41.656 0)
+		(property "Value" "IPAN60R125PFD7SXKSA1"
+			(at 172.466 41.402 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6867,8 +6831,8 @@
 				)
 			)
 		)
-		(property "Footprint" "MCTRL:IPD70R360P7SAUMA1"
-			(at 174.244 7.112 0)
+		(property "Footprint" "MCTRL:IPAN60R125PFD7SXKSA1"
+			(at 176.276 3.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6879,8 +6843,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPD70R360P7S-DS-v02_00-EN.pdf?fileId=5546d462584d1d4a0158cf6fb1440d5c"
-			(at 169.164 11.43 0)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPAN60R125PFD7S-DataSheet-v02_01-EN.pdf?fileId=5546d4626df6ee62016e224bf53a667c"
+			(at 165.862 7.366 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6903,13 +6867,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "125bb2e3-136a-433a-9a16-e77406bb7645")
-		)
-		(pin "2"
-			(uuid "7ab4ccce-c3ab-42eb-9216-1652c869dc24")
+			(uuid "11f3e8fb-d539-4a3d-81c1-810a27abf25a")
 		)
 		(pin "1"
-			(uuid "a189948e-798c-4299-b58f-19d83f78ac12")
+			(uuid "5672b0c1-6e09-43d0-beba-915519a60bff")
+		)
+		(pin "2"
+			(uuid "6ffeecc1-690c-4ac7-b9ea-1b307348c114")
 		)
 		(instances
 			(project "MCTRL"
@@ -7150,6 +7114,84 @@
 			(project "MCTRL"
 				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 54.61 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fecabb8f-da0a-42a5-8401-b09937f36aea")
+		(property "Reference" "#PWR015"
+			(at 54.61 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 54.61 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 54.61 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5efa347a-9623-421a-874f-feb4e11c1156")
+		)
+		(instances
+			(project "MCTRL"
+				(path "/05ad2259-699e-4b3e-ae97-23d07eb388bf"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
