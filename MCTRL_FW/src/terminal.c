@@ -37,6 +37,7 @@ void Terminal_Send(char const* Msg0)
 {
     while (*Msg0)
     {
+        while (LL_USART_IsActiveFlag_TXE(USART2) == 0);
         LL_USART_TransmitData8(USART2, *Msg0++);
     }
 }
