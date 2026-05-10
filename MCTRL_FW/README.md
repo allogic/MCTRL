@@ -3,5 +3,5 @@
 ### Prerequisites
 
 ```
-apt install gcc-arm-none-eabi
+apt install build-essential gcc-arm-none-eabi gdb-multiarch openocd
 ```

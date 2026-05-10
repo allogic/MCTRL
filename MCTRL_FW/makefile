@@ -1,6 +1,6 @@
 AS = arm-none-eabi-as
 CC = arm-none-eabi-gcc
-LD = arm-none-eabi-ld
+LD = arm-none-eabi-gcc
 OBJCOPY = arm-none-eabi-objcopy
 GDB = gdb-multiarch
 OOCD = openocd
@@ -14,26 +14,26 @@ TARGET = $(BUILD_DIR)/mctrl
 
 OOCD_CFG = board/stm32f4discovery.cfg
 
+MCUFLAGS += -mcpu=cortex-m4
+MCUFLAGS += -march=armv7e-m
+MCUFLAGS += -mthumb
+MCUFLAGS += -mfloat-abi=soft
+MCUFLAGS += -mfpu=fpv4-sp-d16
+
 CFLAGS += -I$(PRO_DIR)/include
 CFLAGS += -I$(CMSIS_DIR)/include
 CFLAGS += -I$(HAL_DIR)/include
-
 CFLAGS += -DSTM32F407xx
-
-CFLAGS += -mcpu=cortex-m4
-CFLAGS += -mthumb
-CFLAGS += -mfloat-abi=soft
-
 CFLAGS += -g
 CFLAGS += -O0
 CFLAGS += -std=c99
-
 CFLAGS += -Wall
 CFLAGS += -Wextra
 CFLAGS += -Wno-shift-count-overflow
 CFLAGS += -Wno-tautological-compare
 
-LDFLAGS += -nostdlib
+LDFLAGS += -nostartfiles
+LDFLAGS += -Wl,-Map=$@.map
 LDFLAGS += -T stm32f407.ld
 
 GDBFLAGS += --eval-command="target extended-remote localhost:3333"
@@ -41,26 +41,25 @@ GDBFLAGS += --eval-command="set listsize 30"
 GDBFLAGS += --eval-command="set print pretty on"
 GDBFLAGS += --eval-command="set print array on"
 
-PRO_C_SRCS += $(wildcard $(PRO_DIR)/src/main.c)
-PRO_C_SRCS += $(wildcard $(PRO_DIR)/src/system_stm32f4xx.c)
-#PRO_C_SRCS += $(wildcard $(HAL_DIR)/src/stm32f4xx_ll_rcc.c)
-#PRO_C_SRCS += $(wildcard $(HAL_DIR)/src/stm32f4xx_ll_gpio.c)
+C_SRCS += $(PRO_DIR)/src/main.c
+C_SRCS += $(PRO_DIR)/src/terminal.c
+C_SRCS += $(PRO_DIR)/src/system_stm32f4xx.c
 
-PRO_ASM_SRCS += $(wildcard $(PRO_DIR)/src/startup_stm32f407xx.s)
+ASM_SRCS += $(PRO_DIR)/src/startup_stm32f407xx.s
 
-OBJS += $(patsubst $(PRO_DIR)/%.c, $(BUILD_DIR)/%.o, $(PRO_C_SRCS))
-OBJS += $(patsubst $(PRO_DIR)/%.s, $(BUILD_DIR)/%.o, $(PRO_ASM_SRCS))
+OBJS += $(patsubst $(PRO_DIR)/%.c, $(BUILD_DIR)/%.o, $(C_SRCS))
+OBJS += $(patsubst $(PRO_DIR)/%.s, $(BUILD_DIR)/%.o, $(ASM_SRCS))
 
 $(BUILD_DIR)/%.o: $(PRO_DIR)/%.c
 	@mkdir -p $(@D)
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(MCUFLAGS) $(CFLAGS) -c $< -o $@
 
 $(BUILD_DIR)/%.o: $(PRO_DIR)/%.s
 	@mkdir -p $(@D)
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) $(MCUFLAGS) $(CFLAGS) -c $< -o $@
 
 $(TARGET): $(OBJS)
-	$(LD) $(LDFLAGS) -o $(TARGET).elf $(OBJS)
+	$(LD) $(OBJS) $(MCUFLAGS) $(LDFLAGS) -o $(TARGET).elf
 	$(OBJCOPY) -O binary $(TARGET).elf $(TARGET).bin
 
 all: $(TARGET)
