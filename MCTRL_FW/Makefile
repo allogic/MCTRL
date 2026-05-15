@@ -202,4 +202,7 @@ server:
 debug:
 	gdb-multiarch --eval-command="target extended-remote localhost:3333" $(BUILD_DIR)/$(TARGET).elf
 
+serial:
+	picocom -b 115200 /dev/ttyUSB0
+
 # *** EOF ***
