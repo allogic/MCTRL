@@ -5903,7 +5903,6 @@
 	(symbol
 		(lib_id "Device:D")
 		(at 137.16 62.23 0)
-		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5913,7 +5912,7 @@
 		(dnp no)
 		(uuid "b4784bfd-1c90-4ecb-8147-264be23e1409")
 		(property "Reference" "D3"
-			(at 138.43 59.182 0)
+			(at 135.89 59.182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5924,7 +5923,7 @@
 			)
 		)
 		(property "Value" "UF4007"
-			(at 140.97 65.532 0)
+			(at 133.35 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
